@@ -1,0 +1,13 @@
+{
+  "name": "zoyafatima11-profile",
+  "private": true,
+  "description": "Source for the github.com/zoyafatima11 profile: a research-paper style README with generated, animated figures.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "preview": "node scripts/build.mjs && node scripts/preview.mjs",
+    "test": "node --test scripts/build.test.mjs"
+  }
+}

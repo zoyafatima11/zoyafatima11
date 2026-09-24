@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="608" viewBox="0 0 1200 608" role="img" aria-labelledby="t d">
+  <title id="t">Table 1: Model card for zoya-fatima-v1.</title>
+  <desc id="d">Model: zoya-fatima-v1, an early checkpoint of a human researcher. Architecture: Curiosity-first; asks why before how. Intended use: Research collaboration, paper reading groups, reproducing results, careful GenAI experiments. Training data: Research papers, lecture notes, textbooks, open-source notebooks. Current skills: Research methods, literature review, Python, statistics, AI fundamentals. Fine-tuning on: Machine learning → deep learning → generative models. Known limitations: Context window is currently full of unread papers. Evaluation: Ongoing; see Figure 2 for the training curve. Pre-training: 18%.</desc>
+  <style>
+    .shine { animation: shine 3.4s ease-in-out infinite }
+    @keyframes shine { 0% { transform: translateX(0px) } 70%, 100% { transform: translateX(254.64px) } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+  <defs><linearGradient id="iris" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6D4AFF"/><stop offset="0.5" stop-color="#1FA5B3"/><stop offset="1" stop-color="#DB4A94"/></linearGradient>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="bar"><rect x="318" y="465" width="134.64" height="14"/></clipPath></defs>
+
+  <rect width="1200" height="608" fill="#FBF8F2"/>
+  <text x="44" y="30" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="17" fill="#6B6459"><tspan font-weight="700" fill="#1C1A17">Table 1.</tspan> <tspan font-style="italic">Model card for zoya-fatima-v1.</tspan></text>
+  <rect x="44" y="46" width="1112" height="2" fill="#1C1A17"/>
+  <text x="58" y="72" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2.5" fill="#5536E0">FIELD</text>
+  <text x="318" y="72" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2.5" fill="#5536E0">VALUE</text>
+  <rect x="44" y="82" width="1112" height="0.9" fill="#1C1A17"/>
+  
+  <text x="58" y="110" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Model</text>
+  <text x="318" y="110" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">zoya-fatima-v1, an early checkpoint of a human researcher</text>
+  <rect x="44" y="126" width="1112" height="46" fill="#F3EEE4" opacity="0.6"/>
+  <text x="58" y="156" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Architecture</text>
+  <text x="318" y="156" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Curiosity-first; asks why before how</text>
+  
+  <text x="58" y="202" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Intended use</text>
+  <text x="318" y="202" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Research collaboration, paper reading groups, reproducing results, careful GenAI experiments</text>
+  <rect x="44" y="218" width="1112" height="46" fill="#F3EEE4" opacity="0.6"/>
+  <text x="58" y="248" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Training data</text>
+  <text x="318" y="248" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Research papers, lecture notes, textbooks, open-source notebooks</text>
+  
+  <text x="58" y="294" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Current skills</text>
+  <text x="318" y="294" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Research methods, literature review, Python, statistics, AI fundamentals</text>
+  <rect x="44" y="310" width="1112" height="46" fill="#F3EEE4" opacity="0.6"/>
+  <text x="58" y="340" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Fine-tuning on</text>
+  <text x="318" y="340" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Machine learning → deep learning → generative models</text>
+  
+  <text x="58" y="386" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Known limitations</text>
+  <text x="318" y="386" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Context window is currently full of unread papers</text>
+  <rect x="44" y="402" width="1112" height="46" fill="#F3EEE4" opacity="0.6"/>
+  <text x="58" y="432" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Evaluation</text>
+  <text x="318" y="432" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" fill="#1C1A17">Ongoing; see Figure 2 for the training curve</text>
+  <text x="58" y="478" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#1C1A17">Pre-training</text>
+  <rect x="318" y="465" width="748" height="14" fill="#E7E0D3"/>
+  <rect x="318" y="465" width="134.64" height="14" fill="url(#iris)"/>
+  <g clip-path="url(#bar)"><rect x="198" y="465" width="120" height="14" fill="url(#shine)" class="shine"/></g>
+  <text x="1080" y="478" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#5536E0">18%</text>
+  <text x="318" y="504" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459">loss still dropping ↓</text>
+  <rect x="44" y="564" width="1112" height="2" fill="#1C1A17"/>
+</svg>

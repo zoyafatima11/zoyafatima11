@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+  <title id="t">Figure 2: learning roadmap as a training-loss curve</title>
+  <desc id="d">Roadmap from 2026.5 to 2030. Checkpoints: Research foundations (2026.7): reading papers · literature review · Python · statistics; Machine learning (2027.3): linear algebra · classic ML · PyTorch · experiments; Deep learning (2028): CNNs · transformers · attention · training at scale; Generative AI (2028.8): LLMs · diffusion · RAG · agents; Original research (2029.6): first-author paper · alignment · evaluation.</desc>
+  <style>
+    .draw { stroke-dasharray: 89; animation: draw 3.2s cubic-bezier(.3,0,.2,1) both }
+    @keyframes draw { from { stroke-dashoffset: 89 } to { stroke-dashoffset: 0 } }
+    .ping { animation: ping 2.2s ease-out infinite; transform-origin: 184.29px 143.24px }
+    @keyframes ping { from { transform: scale(1); opacity: .7 } to { transform: scale(3.2); opacity: 0 } }
+    .march { animation: march 1.6s linear infinite }
+    @keyframes march { to { stroke-dashoffset: -16 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+  <defs><linearGradient id="iris" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A98BFF"/><stop offset="0.5" stop-color="#53DCE3"/><stop offset="1" stop-color="#FF7AC8"/></linearGradient>
+    <linearGradient id="under" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A98BFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A98BFF" stop-opacity="0"/>
+    </linearGradient></defs>
+
+  <rect width="1200" height="520" fill="#0D0B17"/>
+  <line x1="258.57" y1="70" x2="258.57" y2="400" stroke="#221E3A"/>
+    <line x1="258.57" y1="400" x2="258.57" y2="406" stroke="#9A93B5"/>
+    <text x="258.57" y="426" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">2027</text>
+  <line x1="555.71" y1="70" x2="555.71" y2="400" stroke="#221E3A"/>
+    <line x1="555.71" y1="400" x2="555.71" y2="406" stroke="#9A93B5"/>
+    <text x="555.71" y="426" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">2028</text>
+  <line x1="852.86" y1="70" x2="852.86" y2="400" stroke="#221E3A"/>
+    <line x1="852.86" y1="400" x2="852.86" y2="406" stroke="#9A93B5"/>
+    <text x="852.86" y="426" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">2029</text>
+  <line x1="1150" y1="70" x2="1150" y2="400" stroke="#221E3A"/>
+    <line x1="1150" y1="400" x2="1150" y2="406" stroke="#9A93B5"/>
+    <text x="1150" y="426" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">2030</text>
+  <line x1="110" y1="317.5" x2="1150" y2="317.5" stroke="#221E3A" stroke-dasharray="2 6"/>
+  <line x1="110" y1="235" x2="1150" y2="235" stroke="#221E3A" stroke-dasharray="2 6"/>
+  <line x1="110" y1="152.5" x2="1150" y2="152.5" stroke="#221E3A" stroke-dasharray="2 6"/>
+  <line x1="110" y1="60" x2="110" y2="400" stroke="#ECE8FA" stroke-width="1.5"/>
+  <line x1="110" y1="400" x2="1150" y2="400" stroke="#ECE8FA" stroke-width="1.5"/>
+  <text transform="translate(66 235) rotate(-90)" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-style="italic" font-size="17" fill="#9A93B5">loss (confusion)</text>
+  <text x="1150" y="452" text-anchor="end" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-style="italic" font-size="17" fill="#9A93B5">training time →</text>
+
+  <path d="M110 99.57 L116.5 98.59 L123 102.54 L129.5 107.27 L136 113.13 L142.5 117.32 L149 124.43 L155.5 127.6 L162 131.27 L168.5 136.88 L175 140.54 L181.5 143.24 L184.29 400 L110 400 Z" fill="url(#under)"/>
+  <path d="M188 147.35 L194.5 151.71 L201 154.54 L207.5 159.86 L214 165.39 L220.5 170.6 L227 174.37 L233.5 178.82 L240 179.68 L246.5 185.09 L253 187.98 L259.5 191.18 L266 194.24 L272.5 198.11 L279 200.21 L285.5 204.87 L292 210.05 L298.5 211.58 L305 214.96 L311.5 217.24 L318 218.22 L324.5 219.3 L331 223.63 L337.5 226.27 L344 230.73 L350.5 232.63 L357 237.15 L363.5 238.28 L370 243.53 L376.5 245.7 L383 248.32 L389.5 249.4 L396 252.29 L402.5 252.07 L409 254.2 L415.5 256.66 L422 259.58 L428.5 261.47 L435 262.8 L441.5 264.99 L448 268.29 L454.5 271.19 L461 273 L467.5 276.92 L474 277.98 L480.5 279.41 L487 279.69 L493.5 281.44 L500 283.47 L506.5 283.66 L513 285.19 L519.5 288.25 L526 289.78 L532.5 291.47 L539 295.96 L545.5 298.29 L552 298.93 L558.5 302.09 L565 303.25 L571.5 304.17 L578 303.94 L584.5 304.51 L591 305.42 L597.5 307.63 L604 307.37 L610.5 310.98 L617 312.68 L623.5 314.49 L630 314.28 L636.5 314.93 L643 314.61 L649.5 315.9 L656 316.51 L662.5 316.96 L669 320.22 L675.5 320.69 L682 321.22 L688.5 323.03 L695 326.4 L701.5 325.7 L708 326.25 L714.5 327.89 L721 326.16 L727.5 326.27 L734 326.99 L740.5 329.23 L747 329.49 L753.5 333.08 L760 334.07 L766.5 335.48 L773 335.24 L779.5 337.53 L786 337.94 L792.5 338.58 L799 339.82 L805.5 341.51 L812 339.51 L818.5 338.75 L825 338.7 L831.5 337.71 L838 339.43 L844.5 342.64 L851 345.14 L857.5 346.49 L864 347.73 L870.5 345.85 L877 345.73 L883.5 345.64 L890 344.56 L896.5 346.04 L903 347.99 L909.5 349.07 L916 349.45 L922.5 349.45 L929 350.14 L935.5 350.73 L942 349.48 L948.5 348.67 L955 350.72 L961.5 349.86 L968 351.2 L974.5 353.33 L981 353.41 L987.5 353.88 L994 354.87 L1000.5 353.86 L1007 353.8 L1013.5 354.64 L1020 354.43 L1026.5 354.39 L1033 355.77 L1039.5 355.41 L1046 355.87 L1052.5 356.47 L1059 356.78 L1065.5 355.79 L1072 357 L1078.5 358.14 L1085 358.51 L1091.5 359 L1098 360.56 L1104.5 359.82 L1111 358.52 L1117.5 358.83 L1124 359.14 L1130.5 358.57 L1137 359.3 L1143.5 360.44 L1150 360.35" fill="none" stroke="#9A93B5" stroke-width="2" stroke-dasharray="6 10" stroke-linecap="round" class="march"/>
+  <path d="M110 99.57 L116.5 98.59 L123 102.54 L129.5 107.27 L136 113.13 L142.5 117.32 L149 124.43 L155.5 127.6 L162 131.27 L168.5 136.88 L175 140.54 L181.5 143.24" fill="none" stroke="url(#iris)" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" class="draw"/>
+
+  <line x1="169.43" y1="144.88" x2="169.43" y2="310.88" stroke="#3A3460" stroke-dasharray="3 3"/>
+    <circle cx="169.43" cy="136.88" r="7" fill="#A98BFF" stroke="#A98BFF" stroke-width="2"/>
+    <text x="157.43" y="330.88" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#ECE8FA"><tspan font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#BBA6FF">ckpt-1  </tspan>Research foundations</text>
+    <text x="157.43" y="350.88" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">reading papers</text>
+    <text x="157.43" y="368.88" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">literature review</text>
+    <text x="157.43" y="386.88" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">Python · statistics</text>
+  <line x1="347.71" y1="224.63" x2="347.71" y2="190.63" stroke="#3A3460" stroke-dasharray="3 3"/>
+    <circle cx="347.71" cy="232.63" r="7" fill="#0D0B17" stroke="#9A93B5" stroke-width="2"/>
+    <text x="335.71" y="128.63" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#ECE8FA"><tspan font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#9A93B5">ckpt-2  </tspan>Machine learning</text>
+    <text x="335.71" y="148.63" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">linear algebra</text>
+    <text x="335.71" y="166.63" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">classic ML · PyTorch</text>
+    <text x="335.71" y="184.63" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">experiments</text>
+  <line x1="555.71" y1="294.09" x2="555.71" y2="260.09" stroke="#3A3460" stroke-dasharray="3 3"/>
+    <circle cx="555.71" cy="302.09" r="7" fill="#0D0B17" stroke="#9A93B5" stroke-width="2"/>
+    <text x="543.71" y="198.08999999999997" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#ECE8FA"><tspan font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#9A93B5">ckpt-3  </tspan>Deep learning</text>
+    <text x="543.71" y="218.08999999999997" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">CNNs · transformers</text>
+    <text x="543.71" y="236.08999999999997" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">attention</text>
+    <text x="543.71" y="254.08999999999997" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">training at scale</text>
+  <line x1="793.43" y1="330.58" x2="793.43" y2="296.58" stroke="#3A3460" stroke-dasharray="3 3"/>
+    <circle cx="793.43" cy="338.58" r="7" fill="#0D0B17" stroke="#9A93B5" stroke-width="2"/>
+    <text x="781.43" y="252.57999999999998" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#ECE8FA"><tspan font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#9A93B5">ckpt-4  </tspan>Generative AI</text>
+    <text x="781.43" y="272.58" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">LLMs · diffusion · RAG</text>
+    <text x="781.43" y="290.58" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">agents</text>
+  <line x1="1031.14" y1="347.77" x2="1031.14" y2="213.76999999999998" stroke="#3A3460" stroke-dasharray="3 3"/>
+    <circle cx="1031.14" cy="355.77" r="7" fill="#0D0B17" stroke="#9A93B5" stroke-width="2"/>
+    <text x="920.0799999999999" y="169.76999999999998" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#ECE8FA"><tspan font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#9A93B5">ckpt-5  </tspan>Original research</text>
+    <text x="920.0799999999999" y="189.76999999999998" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">first-author paper</text>
+    <text x="920.0799999999999" y="207.76999999999998" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9A93B5">alignment · evaluation</text>
+
+  <circle cx="184.29" cy="143.24" r="8" fill="#FF7AC8" class="ping"/>
+  <circle cx="184.29" cy="143.24" r="6" fill="#FF7AC8" stroke="#0D0B17" stroke-width="2"/>
+  <text x="200.29" y="169.24" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#FF7AC8">◂ you are here</text>
+
+  <!-- legend -->
+  <rect x="870" y="52" width="286" height="62" fill="#0D0B17" stroke="#3A3460"/>
+  <rect x="886" y="72.25" width="36" height="3.5" rx="1.75" fill="url(#iris)"/>
+  <text x="932" y="79" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ECE8FA">observed</text>
+  <line x1="886" y1="98" x2="922" y2="98" stroke="#9A93B5" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="932" y="103" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ECE8FA">projected</text>
+  <circle cx="1050" cy="74" r="5" fill="#A98BFF"/>
+  <text x="1062" y="79" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ECE8FA">reached</text>
+  <circle cx="1050" cy="98" r="5" fill="#0D0B17" stroke="#9A93B5" stroke-width="2"/>
+  <text x="1062" y="103" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ECE8FA">next</text>
+
+  <rect x="44" y="462" width="1112" height="0.75" fill="#3A3460"/>
+  <text x="44" y="494" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="17" fill="#9A93B5"><tspan font-weight="700" fill="#ECE8FA">Figure 2.</tspan> <tspan font-style="italic">Training run zoya-v1. The observed segment is real, the rest is a projection, and every checkpoint is a goal.</tspan></text>
+</svg>
