@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="464" viewBox="0 0 1200 464" role="img" aria-labelledby="t d">
+  <title id="t">Cite this work (page 7 of 7)</title>
+  <desc id="d">@misc{fatima2026imagine,
+  author       = {Fatima, Zoya},
+  title        = {Towards Machines That Imagine: A Researcher&#39;s Training Run},
+  year         = {2026},
+  howpublished = {\url{https://github.com/zoyafatima11}},
+  note         = {Early checkpoint; results preliminary}
+}</desc>
+  <style>
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+  <defs>
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6D4AFF"/><stop offset="0.5" stop-color="#1FA5B3"/><stop offset="1" stop-color="#DB4A94"/></linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#E7E0D3"/></pattern></defs>
+
+  <rect width="1200" height="464" fill="#FBF8F2"/>
+  <rect width="1200" height="464" fill="url(#grain)" opacity="0.55"/>
+  <text x="64" y="76" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-style="italic" font-size="46" font-weight="700" fill="url(#iris)">“ ”</text>
+  <text x="128.46" y="73" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" letter-spacing="-0.4" fill="#1C1A17">Cite this work</text>
+  <text x="1136" y="70" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="1.5" fill="#6B6459">Z. FATIMA  ·  ZOYA-FATIMA-V1<tspan fill="#5536E0" font-weight="700">    7 / 7</tspan></text>
+  <rect x="64" y="92" width="1072" height="1.5" fill="#1C1A17"/><rect x="64" y="96" width="1072" height="0.75" fill="#1C1A17"/>
+  <g transform="translate(0 132)">
+  
+  <rect x="64" y="0" width="1072" height="246" fill="#F3EEE4" stroke="#CFC6B6"/>
+  <rect x="64" y="0" width="54" height="246" fill="#E7E0D3" opacity="0.6"/>
+  <text x="102" y="36" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">1</text>
+  <text x="140" y="36" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve"><tspan fill="#DB4A94" font-weight="700">@misc</tspan><tspan fill="#6B6459">{</tspan><tspan fill="#5536E0">fatima2026imagine</tspan><tspan fill="#6B6459">,</tspan></text>
+  <text x="102" y="66" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">2</text>
+  <text x="140" y="66" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve">  <tspan fill="#1FA5B3">author</tspan><tspan fill="#6B6459">       = {</tspan><tspan fill="#1C1A17">Fatima, Zoya</tspan><tspan fill="#6B6459">},</tspan></text>
+  <text x="102" y="96" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">3</text>
+  <text x="140" y="96" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve">  <tspan fill="#1FA5B3">title</tspan><tspan fill="#6B6459">        = {</tspan><tspan fill="#1C1A17">Towards Machines That Imagine: A Researcher&#39;s Training Run</tspan><tspan fill="#6B6459">},</tspan></text>
+  <text x="102" y="126" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">4</text>
+  <text x="140" y="126" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve">  <tspan fill="#1FA5B3">year</tspan><tspan fill="#6B6459">         = {</tspan><tspan fill="#1C1A17">2026</tspan><tspan fill="#6B6459">},</tspan></text>
+  <text x="102" y="156" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">5</text>
+  <text x="140" y="156" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve">  <tspan fill="#1FA5B3">howpublished</tspan><tspan fill="#6B6459"> = {</tspan><tspan fill="#1C1A17">\url{https://github.com/zoyafatima11}</tspan><tspan fill="#6B6459">},</tspan></text>
+  <text x="102" y="186" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">6</text>
+  <text x="140" y="186" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve">  <tspan fill="#1FA5B3">note</tspan><tspan fill="#6B6459">         = {</tspan><tspan fill="#1C1A17">Early checkpoint; results preliminary</tspan><tspan fill="#6B6459">}</tspan></text>
+  <text x="102" y="216" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#6B6459" opacity="0.7">7</text>
+  <text x="140" y="216" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" xml:space="preserve"><tspan fill="#6B6459">}</tspan></text>
+  <text x="1118" y="30" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2" fill="#6B6459">BIBTEX</text>
+  </g>
+  <rect x="64" y="396" width="1072" height="0.75" fill="#CFC6B6"/>
+  <g transform="translate(0 430)">
+  <text x="64" y="0" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="16.5" fill="#6B6459" xml:space="preserve">∎ <tspan font-style="italic">End of preprint. </tspan>Compiled nightly by GitHub Actions. The copyable BibTeX is just below.</text>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="462.5" fill="none" stroke="#CFC6B6" stroke-width="1.5"/>
+  <g opacity="0.7"><path d="M12 28 L12 12 L28 12" fill="none" stroke="#5536E0" stroke-width="1.5"/><path d="M1188 28 L1188 12 L1172 12" fill="none" stroke="#5536E0" stroke-width="1.5"/><path d="M12 436 L12 452 L28 452" fill="none" stroke="#5536E0" stroke-width="1.5"/><path d="M1188 436 L1188 452 L1172 452" fill="none" stroke="#5536E0" stroke-width="1.5"/></g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="72" viewBox="0 0 240 72" role="img" aria-labelledby="t d">
+  <title id="t">Reading</title>
+  <desc id="d">page 6</desc>
+  <style>
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+  <defs>
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A98BFF"/><stop offset="0.5" stop-color="#53DCE3"/><stop offset="1" stop-color="#FF7AC8"/></linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#221E3A"/></pattern></defs>
+
+  <rect width="240" height="72" fill="#0D0B17"/>
+  <text x="62.1" y="42" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="30" fill="url(#iris)">[ ]</text>
+  <text x="104.4" y="40" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="21" fill="#ECE8FA">Reading</text>
+  <text x="120" y="60" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#9A93B5">PAGE 6</text>
+  <rect x="104" y="67" width="32" height="2" fill="url(#iris)"/>
+  <rect x="0.75" y="0.75" width="238.5" height="70.5" fill="none" stroke="#3A3460" stroke-width="1.5"/>
+  
+</svg>

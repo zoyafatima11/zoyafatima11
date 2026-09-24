@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Zoya Fatima: Towards machines that imagine, and knowing why they do</title>
+  <desc id="d">Title page of a research-paper style profile for Zoya Fatima. Keywords: generative models  ·  diffusion  ·  transformers  ·  research methods. Figure 0 animates random noise resolving into a flower-shaped curve, like a diffusion model denoising.</desc>
+  <style>
+    .dot circle { animation: denoise 10s cubic-bezier(.45,0,.2,1) infinite }
+    @keyframes denoise {
+      0%, 8% { transform: translate(var(--dx), var(--dy)); opacity: .55 }
+      50%, 82% { transform: translate(0px, 0px); opacity: 1 }
+      100% { transform: translate(var(--dx), var(--dy)); opacity: .55 }
+    }
+    .spin { animation: spin 60s linear infinite; transform-origin: 930px 298px }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    @keyframes s0 { 0% { opacity: 1 } 11.99% { opacity: 1 } 12%, 100% { opacity: 0 } } .s0 { animation: s0 10s linear infinite }
+    @keyframes s1 { 0%, 11.99% { opacity: 0 } 12% { opacity: 1 } 23.99% { opacity: 1 } 24%, 100% { opacity: 0 } } .s1 { animation: s1 10s linear infinite }
+    @keyframes s2 { 0%, 23.99% { opacity: 0 } 24% { opacity: 1 } 35.99% { opacity: 1 } 36%, 100% { opacity: 0 } } .s2 { animation: s2 10s linear infinite }
+    @keyframes s3 { 0%, 35.99% { opacity: 0 } 36% { opacity: 1 } 47.99% { opacity: 1 } 48%, 100% { opacity: 0 } } .s3 { animation: s3 10s linear infinite }
+    @keyframes s4 { 0%, 47.99% { opacity: 0 } 48% { opacity: 1 } 83.99% { opacity: 1 } 84%, 100% { opacity: 0 } } .s4 { animation: s4 10s linear infinite }
+    @keyframes s5 { 0%, 83.99% { opacity: 0 } 84% { opacity: 1 } 99.99% { opacity: 1 } } .s5 { animation: s5 10s linear infinite }
+    .blink { animation: blink 1.2s steps(1, end) infinite }
+    @keyframes blink { 50% { opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+  <defs>
+    <linearGradient id="iris" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A98BFF"/><stop offset="0.5" stop-color="#53DCE3"/><stop offset="1" stop-color="#FF7AC8"/></linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#221E3A"/></pattern>
+    <clipPath id="fig"><rect x="724" y="124" width="412" height="348"/></clipPath></defs>
+
+  <rect width="1200" height="560" fill="#0D0B17"/>
+  <rect width="1200" height="560" fill="url(#grain)" opacity="0.55"/>
+  <text x="64" y="70" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="3" fill="#9A93B5">PREPRINT · V1 · 2026</text>
+  <text x="1136" y="70" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="1.5" fill="#9A93B5">Z. FATIMA  ·  ZOYA-FATIMA-V1<tspan fill="#BBA6FF" font-weight="700">    1 / 7</tspan></text>
+  <rect x="64" y="92" width="1072" height="1.5" fill="#ECE8FA"/><rect x="64" y="96" width="1072" height="0.75" fill="#ECE8FA"/>
+
+  <text transform="translate(38 426.71) rotate(-90)" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="1" fill="#9A93B5" opacity="0.7">profile:2609.11v1 [cs.AI] 25 Sep 2026</text>
+
+  <text x="64" y="176" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" letter-spacing="3" fill="#BBA6FF">RESEARCHER · AI &amp; GENERATIVE MODELS</text>
+  <text x="60" y="256.8" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" letter-spacing="-1.5" fill="#ECE8FA">Zoya Fatima</text>
+  <rect x="64" y="278.8" width="120" height="4" fill="url(#iris)"/>
+  <text x="64" y="326.8" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#ECE8FA">Towards machines that imagine, and knowing why they do</text>
+  <text x="64" y="374.8" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="14" fill="#9A93B5"><tspan font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2.5" fill="#BBA6FF">KEYWORDS  </tspan><tspan font-style="italic">generative models  ·  diffusion  ·  transformers  ·  research methods</tspan></text>
+
+  <rect x="64" y="442" width="580" height="0.75" fill="#3A3460"/>
+  <text x="64" y="476" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9A93B5"><tspan fill="#BBA6FF">▸</tspan> status   <tspan fill="#ECE8FA">early pre-training</tspan><tspan class="blink" fill="#BBA6FF">▍</tspan></text>
+  <text x="64" y="502" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#9A93B5"><tspan fill="#BBA6FF">▸</tspan> seeking  <tspan fill="#ECE8FA">collaborators &amp; reading groups</tspan></text>
+
+  <rect x="724" y="124" width="412" height="348" fill="#15122A" stroke="#3A3460"/>
+  <g clip-path="url(#fig)"><g class="spin"><g class="dot">
+      <circle cx="1070" cy="298" r="3.7" fill="#a98bff" style="--dx:-198.86px;--dy:12.76px;animation-delay:-0.81s"/>
+      <circle cx="1068.97" cy="302.1" r="3.69" fill="#a88cff" style="--dx:-136.75px;--dy:51.64px;animation-delay:-0.07s"/>
+      <circle cx="1065.88" cy="306.03" r="3.65" fill="#a48ffd" style="--dx:-102.47px;--dy:115.6px;animation-delay:-0.21s"/>
+      <circle cx="1060.81" cy="309.61" r="3.59" fill="#9e95fc" style="--dx:-137.68px;--dy:11.37px;animation-delay:-0.07s"/>
+      <circle cx="1053.83" cy="312.68" r="3.5" fill="#969df9" style="--dx:-141.88px;--dy:36.65px;animation-delay:-0.9s"/>
+      <circle cx="1045.07" cy="315.1" r="3.4" fill="#8ca6f6" style="--dx:-56.16px;--dy:55.09px;animation-delay:-0.44s"/>
+      <circle cx="1034.69" cy="316.73" r="3.27" fill="#80b2f2" style="--dx:-77.57px;--dy:-25.91px;animation-delay:-0.07s"/>
+      <circle cx="1022.88" cy="317.46" r="3.12" fill="#72bfed" style="--dx:-54.52px;--dy:2.98px;animation-delay:-0.65s"/>
+      <circle cx="1009.85" cy="317.2" r="2.96" fill="#62cee8" style="--dx:-119.48px;--dy:-48.47px;animation-delay:-0.81s"/>
+      <circle cx="995.81" cy="315.9" r="2.78" fill="#57d9e2" style="--dx:-93.34px;--dy:-183.9px;animation-delay:-0.75s"/>
+      <circle cx="981.03" cy="313.51" r="2.59" fill="#7cc5dd" style="--dx:-104.3px;--dy:20.19px;animation-delay:-0.24s"/>
+      <circle cx="965.76" cy="310.03" r="2.39" fill="#a2afd7" style="--dx:162.24px;--dy:-10.82px;animation-delay:-0.78s"/>
+      <circle cx="950.26" cy="305.49" r="2.18" fill="#ca98d0" style="--dx:-114.6px;--dy:124.98px;animation-delay:-0.7s"/>
+      <circle cx="934.79" cy="299.93" r="1.97" fill="#f281ca" style="--dx:8.67px;--dy:104.97px;animation-delay:-0.51s"/>
+      <circle cx="919.61" cy="293.45" r="2.05" fill="#e38acc" style="--dx:-27.56px;--dy:41.08px;animation-delay:-0.34s"/>
+      <circle cx="904.97" cy="286.14" r="2.26" fill="#bba1d3" style="--dx:68.92px;--dy:113.75px;animation-delay:-0.8s"/>
+      <circle cx="891.12" cy="278.15" r="2.46" fill="#94b7d9" style="--dx:-12.13px;--dy:-92.05px;animation-delay:-0.3s"/>
+      <circle cx="878.26" cy="269.63" r="2.66" fill="#6ecddf" style="--dx:-45.07px;--dy:25.53px;animation-delay:-0.15s"/>
+      <circle cx="866.58" cy="260.76" r="2.85" fill="#57d8e4" style="--dx:22.05px;--dy:74.08px;animation-delay:-0.45s"/>
+      <circle cx="856.26" cy="251.72" r="3.02" fill="#68c8ea" style="--dx:-124.26px;--dy:167.89px;animation-delay:-0.09s"/>
+      <circle cx="847.44" cy="242.72" r="3.18" fill="#77baef" style="--dx:96.96px;--dy:221.28px;animation-delay:-0.57s"/>
+      <circle cx="840.21" cy="233.97" r="3.32" fill="#84adf3" style="--dx:139.06px;--dy:194.43px;animation-delay:-0.79s"/>
+      <circle cx="834.66" cy="225.68" r="3.44" fill="#90a3f7" style="--dx:127.58px;--dy:159.35px;animation-delay:-0.63s"/>
+      <circle cx="830.82" cy="218.05" r="3.54" fill="#9a9afa" style="--dx:255.5px;--dy:168.65px;animation-delay:-0.6s"/>
+      <circle cx="828.7" cy="211.29" r="3.61" fill="#a193fc" style="--dx:64.43px;--dy:74.33px;animation-delay:-0.18s"/>
+      <circle cx="828.27" cy="205.59" r="3.67" fill="#a68efe" style="--dx:64.08px;--dy:-38.2px;animation-delay:-0.39s"/>
+      <circle cx="829.47" cy="201.11" r="3.7" fill="#a98bff" style="--dx:177.14px;--dy:179.58px;animation-delay:-0.13s"/>
+      <circle cx="832.2" cy="198.01" r="3.7" fill="#a98bff" style="--dx:-16px;--dy:-25.89px;animation-delay:-0.42s"/>
+      <circle cx="836.35" cy="196.42" r="3.68" fill="#a78dfe" style="--dx:192.46px;--dy:120.3px;animation-delay:-0.79s"/>
+      <circle cx="841.76" cy="196.44" r="3.63" fill="#a291fd" style="--dx:21.36px;--dy:218.76px;animation-delay:-0.88s"/>
+      <circle cx="848.27" cy="198.13" r="3.56" fill="#9c98fb" style="--dx:43.82px;--dy:-52.57px;animation-delay:-0.6s"/>
+      <circle cx="855.7" cy="201.54" r="3.47" fill="#93a0f8" style="--dx:173.63px;--dy:145.48px;animation-delay:-0.8s"/>
+      <circle cx="863.85" cy="206.67" r="3.35" fill="#88abf4" style="--dx:92.17px;--dy:247.55px;animation-delay:-0.9s"/>
+      <circle cx="872.5" cy="213.48" r="3.21" fill="#7bb7f0" style="--dx:112.7px;--dy:-62.26px;animation-delay:-0.47s"/>
+      <circle cx="881.46" cy="221.91" r="3.06" fill="#6cc5eb" style="--dx:27.83px;--dy:34.73px;animation-delay:-0.7s"/>
+      <circle cx="890.51" cy="231.87" r="2.89" fill="#5cd4e6" style="--dx:-75.78px;--dy:-9.17px;animation-delay:-0.18s"/>
+      <circle cx="899.44" cy="243.22" r="2.71" fill="#65d2e0" style="--dx:228.56px;--dy:95.06px;animation-delay:-0.08s"/>
+      <circle cx="908.07" cy="255.8" r="2.51" fill="#8abdda" style="--dx:93.38px;--dy:-18.97px;animation-delay:-0.6s"/>
+      <circle cx="916.2" cy="269.43" r="2.31" fill="#b1a6d4" style="--dx:-106.9px;--dy:194.57px;animation-delay:-0.34s"/>
+      <circle cx="923.69" cy="283.89" r="2.1" fill="#d990ce" style="--dx:144.64px;--dy:-151.89px;animation-delay:-0.42s"/>
+      <circle cx="930.39" cy="298.95" r="1.91" fill="#fc7bc8" style="--dx:-60.89px;--dy:84.24px;animation-delay:-0.57s"/>
+      <circle cx="936.19" cy="314.38" r="2.13" fill="#d493cf" style="--dx:-44.76px;--dy:4.62px;animation-delay:-0.28s"/>
+      <circle cx="940.99" cy="329.89" r="2.33" fill="#aca9d5" style="--dx:-169.73px;--dy:-96.79px;animation-delay:-0.65s"/>
+      <circle cx="944.74" cy="345.25" r="2.54" fill="#85bfdb" style="--dx:-42.01px;--dy:-34.47px;animation-delay:-0.18s"/>
+      <circle cx="947.4" cy="360.18" r="2.73" fill="#60d4e1" style="--dx:115.76px;--dy:-17.35px;animation-delay:-0s"/>
+      <circle cx="948.97" cy="374.42" r="2.91" fill="#5ed2e6" style="--dx:32.91px;--dy:-33.66px;animation-delay:-0.08s"/>
+      <circle cx="949.49" cy="387.73" r="3.08" fill="#6ec3ec" style="--dx:167.42px;--dy:-159.18px;animation-delay:-0.32s"/>
+      <circle cx="949" cy="399.87" r="3.23" fill="#7cb5f0" style="--dx:26.71px;--dy:-140.56px;animation-delay:-0.19s"/>
+      <circle cx="947.58" cy="410.62" r="3.37" fill="#89a9f5" style="--dx:-215.58px;--dy:-111.25px;animation-delay:-0.36s"/>
+      <circle cx="945.35" cy="419.8" r="3.48" fill="#949ff8" style="--dx:108.61px;--dy:-74.64px;animation-delay:-0.61s"/>
+      <circle cx="942.43" cy="427.24" r="3.57" fill="#9d97fb" style="--dx:-96.72px;--dy:-277.79px;animation-delay:-0.19s"/>
+      <circle cx="938.96" cy="432.8" r="3.64" fill="#a391fd" style="--dx:-71.69px;--dy:-222.12px;animation-delay:-0.2s"/>
+      <circle cx="935.11" cy="436.39" r="3.68" fill="#a78dfe" style="--dx:130.32px;--dy:-108.58px;animation-delay:-0.36s"/>
+      <circle cx="931.03" cy="437.94" r="3.7" fill="#a98bff" style="--dx:-58.7px;--dy:-301.31px;animation-delay:-0.7s"/>
+      <circle cx="926.92" cy="437.42" r="3.69" fill="#a88cff" style="--dx:-26.66px;--dy:-305.42px;animation-delay:-0.54s"/>
+      <circle cx="922.93" cy="434.84" r="3.66" fill="#a58efe" style="--dx:32.53px;--dy:-179.55px;animation-delay:-0.72s"/>
+      <circle cx="919.25" cy="430.26" r="3.61" fill="#a093fc" style="--dx:-52.84px;--dy:-145.89px;animation-delay:-0.73s"/>
+      <circle cx="916.03" cy="423.74" r="3.53" fill="#989bfa" style="--dx:-0.97px;--dy:-140.1px;animation-delay:-0.62s"/>
+      <circle cx="913.44" cy="415.42" r="3.42" fill="#8fa4f6" style="--dx:86.66px;--dy:-283.42px;animation-delay:-0.4s"/>
+      <circle cx="911.6" cy="405.43" r="3.3" fill="#83aff3" style="--dx:133.57px;--dy:-129.07px;animation-delay:-0.55s"/>
+      <circle cx="910.64" cy="393.96" r="3.16" fill="#75bcee" style="--dx:89.25px;--dy:70.04px;animation-delay:-0.03s"/>
+      <circle cx="910.64" cy="381.21" r="3" fill="#66cae9" style="--dx:193.66px;--dy:-68.44px;animation-delay:-0.87s"/>
+      <circle cx="911.68" cy="367.4" r="2.82" fill="#55dae4" style="--dx:9.83px;--dy:3.49px;animation-delay:-0.36s"/>
+      <circle cx="913.79" cy="352.78" r="2.63" fill="#73cade" style="--dx:11.18px;--dy:-97.83px;animation-delay:-0.11s"/>
+      <circle cx="917" cy="337.61" r="2.44" fill="#99b4d8" style="--dx:-51.37px;--dy:-79.34px;animation-delay:-0.3s"/>
+      <circle cx="921.28" cy="322.14" r="2.23" fill="#c09ed2" style="--dx:70.1px;--dy:-10.12px;animation-delay:-0.32s"/>
+      <circle cx="926.59" cy="306.64" r="2.02" fill="#e887cc" style="--dx:87.47px;--dy:-60.04px;animation-delay:-0.05s"/>
+      <circle cx="932.85" cy="291.36" r="1.99" fill="#ed84cb" style="--dx:-2.11px;--dy:149.46px;animation-delay:-0.46s"/>
+      <circle cx="939.96" cy="276.57" r="2.2" fill="#c59bd1" style="--dx:-6.17px;--dy:-89.97px;animation-delay:-0.8s"/>
+      <circle cx="947.79" cy="262.5" r="2.41" fill="#9db2d7" style="--dx:7.69px;--dy:145.32px;animation-delay:-0.45s"/>
+      <circle cx="956.2" cy="249.37" r="2.61" fill="#77c7dd" style="--dx:-27.19px;--dy:69.15px;animation-delay:-0.85s"/>
+      <circle cx="965" cy="237.38" r="2.8" fill="#53dce3" style="--dx:25.65px;--dy:-25.7px;animation-delay:-0.6s"/>
+      <circle cx="974.01" cy="226.71" r="2.98" fill="#64cce9" style="--dx:-99.61px;--dy:50.74px;animation-delay:-0.29s"/>
+      <circle cx="983.04" cy="217.5" r="3.14" fill="#73bdee" style="--dx:-120.37px;--dy:128.77px;animation-delay:-0.28s"/>
+      <circle cx="991.88" cy="209.86" r="3.28" fill="#81b0f2" style="--dx:-35.26px;--dy:17.76px;animation-delay:-0.07s"/>
+      <circle cx="1000.3" cy="203.89" r="3.41" fill="#8da5f6" style="--dx:-182.48px;--dy:249.81px;animation-delay:-0.56s"/>
+      <circle cx="1008.12" cy="199.62" r="3.52" fill="#979cf9" style="--dx:-34.99px;--dy:121.23px;animation-delay:-0.52s"/>
+      <circle cx="1015.11" cy="197.07" r="3.6" fill="#9f94fc" style="--dx:-80.9px;--dy:49.24px;animation-delay:-0.05s"/>
+      <circle cx="1021.1" cy="196.23" r="3.66" fill="#a58ffe" style="--dx:-114.41px;--dy:168.91px;animation-delay:-0.44s"/>
+      <circle cx="1025.89" cy="197.02" r="3.69" fill="#a88cff" style="--dx:-159.65px;--dy:58.98px;animation-delay:-0.15s"/>
+      <circle cx="1029.35" cy="199.38" r="3.7" fill="#a98bff" style="--dx:72.1px;--dy:37.24px;animation-delay:-0.89s"/>
+      <circle cx="1031.33" cy="203.19" r="3.68" fill="#a78cff" style="--dx:-5.53px;--dy:25.85px;animation-delay:-0.85s"/>
+      <circle cx="1031.72" cy="208.3" r="3.64" fill="#a490fd" style="--dx:-172.8px;--dy:197.7px;animation-delay:-0.81s"/>
+      <circle cx="1030.45" cy="214.55" r="3.58" fill="#9d96fb" style="--dx:-80.6px;--dy:80.59px;animation-delay:-0.08s"/>
+      <circle cx="1027.47" cy="221.77" r="3.49" fill="#959ef8" style="--dx:-83.04px;--dy:95.24px;animation-delay:-0.45s"/>
+      <circle cx="1022.78" cy="229.75" r="3.38" fill="#8aa8f5" style="--dx:37.94px;--dy:147.44px;animation-delay:-0.27s"/>
+      <circle cx="1016.38" cy="238.3" r="3.25" fill="#7eb3f1" style="--dx:-14.1px;--dy:-6.61px;animation-delay:-0.75s"/>
+      <circle cx="1008.34" cy="247.2" r="3.1" fill="#70c1ec" style="--dx:-48.46px;--dy:-16.5px;animation-delay:-0.11s"/>
+      <circle cx="998.76" cy="256.25" r="2.93" fill="#60d0e7" style="--dx:-88.06px;--dy:81.72px;animation-delay:-0.22s"/>
+      <circle cx="987.74" cy="265.23" r="2.75" fill="#5cd7e2" style="--dx:127.85px;--dy:15.47px;animation-delay:-0.61s"/>
+      <circle cx="975.45" cy="273.95" r="2.56" fill="#81c2dc" style="--dx:-152.93px;--dy:-5.56px;animation-delay:-0.03s"/>
+      <circle cx="962.07" cy="282.22" r="2.36" fill="#a7acd6" style="--dx:-43.31px;--dy:27.4px;animation-delay:-0.45s"/>
+      <circle cx="947.79" cy="289.89" r="2.15" fill="#cf95d0" style="--dx:-31.41px;--dy:-157.89px;animation-delay:-0.78s"/>
+      <circle cx="932.85" cy="296.8" r="1.94" fill="#f77ec9" style="--dx:-106.53px;--dy:163.84px;animation-delay:-0.43s"/>
+      <circle cx="917.5" cy="302.83" r="2.07" fill="#de8dcd" style="--dx:102.42px;--dy:-170.83px;animation-delay:-0.05s"/>
+      <circle cx="901.98" cy="307.89" r="2.28" fill="#b6a4d3" style="--dx:69.05px;--dy:-77.84px;animation-delay:-0.28s"/>
+      <circle cx="886.56" cy="311.9" r="2.49" fill="#8fbada" style="--dx:43.82px;--dy:-12.39px;animation-delay:-0.66s"/>
+      <circle cx="871.5" cy="314.84" r="2.68" fill="#69cfdf" style="--dx:97.93px;--dy:149.16px;animation-delay:-0.03s"/>
+      <circle cx="857.06" cy="316.68" r="2.87" fill="#5ad6e5" style="--dx:112.93px;--dy:60.82px;animation-delay:-0.85s"/>
+      <circle cx="843.5" cy="317.46" r="3.04" fill="#6ac6ea" style="--dx:-62.98px;--dy:-13.56px;animation-delay:-0.57s"/>
+      <circle cx="831.04" cy="317.21" r="3.2" fill="#79b8ef" style="--dx:-4.32px;--dy:-32.32px;animation-delay:-0.64s"/>
+      <circle cx="819.93" cy="316.02" r="3.33" fill="#86acf4" style="--dx:68.74px;--dy:-94.67px;animation-delay:-0.55s"/>
+      <circle cx="810.34" cy="313.98" r="3.45" fill="#91a1f7" style="--dx:165.43px;--dy:-162.89px;animation-delay:-0.75s"/>
+      <circle cx="802.45" cy="311.22" r="3.55" fill="#9b99fa" style="--dx:239.22px;--dy:-88.92px;animation-delay:-0.81s"/>
+      <circle cx="796.41" cy="307.87" r="3.62" fill="#a292fd" style="--dx:158.73px;--dy:-115.28px;animation-delay:-0.28s"/>
+      <circle cx="792.32" cy="304.1" r="3.67" fill="#a68efe" style="--dx:-45.89px;--dy:-127.56px;animation-delay:-0.75s"/>
+      <circle cx="790.26" cy="300.06" r="3.7" fill="#a98bff" style="--dx:167.33px;--dy:-168.06px;animation-delay:-0.83s"/>
+      <circle cx="790.26" cy="295.94" r="3.7" fill="#a98bff" style="--dx:190.77px;--dy:16.45px;animation-delay:-0.06s"/>
+      <circle cx="792.32" cy="291.9" r="3.67" fill="#a68efe" style="--dx:273.09px;--dy:-27.11px;animation-delay:-0.25s"/>
+      <circle cx="796.41" cy="288.13" r="3.62" fill="#a292fd" style="--dx:-4.78px;--dy:150.03px;animation-delay:-0.33s"/>
+      <circle cx="802.45" cy="284.78" r="3.55" fill="#9b99fa" style="--dx:63.82px;--dy:46.52px;animation-delay:-0.7s"/>
+      <circle cx="810.34" cy="282.02" r="3.45" fill="#91a1f7" style="--dx:218.58px;--dy:-65.2px;animation-delay:-0.19s"/>
+      <circle cx="819.93" cy="279.98" r="3.33" fill="#86acf4" style="--dx:145.64px;--dy:54.41px;animation-delay:-0.76s"/>
+      <circle cx="831.04" cy="278.79" r="3.2" fill="#79b8ef" style="--dx:146.92px;--dy:-81.42px;animation-delay:-0.33s"/>
+      <circle cx="843.5" cy="278.54" r="3.04" fill="#6ac6ea" style="--dx:113.2px;--dy:62px;animation-delay:-0.78s"/>
+      <circle cx="857.06" cy="279.32" r="2.87" fill="#5ad6e5" style="--dx:13.33px;--dy:-39.07px;animation-delay:-0.66s"/>
+      <circle cx="871.5" cy="281.16" r="2.68" fill="#69cfdf" style="--dx:56.96px;--dy:93.11px;animation-delay:-0.5s"/>
+      <circle cx="886.56" cy="284.1" r="2.49" fill="#8fbada" style="--dx:128.7px;--dy:-152.1px;animation-delay:-0.32s"/>
+      <circle cx="901.98" cy="288.11" r="2.28" fill="#b6a4d3" style="--dx:124.72px;--dy:142.26px;animation-delay:-0.87s"/>
+      <circle cx="917.5" cy="293.17" r="2.07" fill="#de8dcd" style="--dx:9.09px;--dy:139.51px;animation-delay:-0.6s"/>
+      <circle cx="932.85" cy="299.2" r="1.94" fill="#f77ec9" style="--dx:37.89px;--dy:39.2px;animation-delay:-0.87s"/>
+      <circle cx="947.79" cy="306.11" r="2.15" fill="#cf95d0" style="--dx:101.19px;--dy:-87.57px;animation-delay:-0.5s"/>
+      <circle cx="962.07" cy="313.78" r="2.36" fill="#a7acd6" style="--dx:-145.94px;--dy:-40.89px;animation-delay:-0.69s"/>
+      <circle cx="975.45" cy="322.05" r="2.56" fill="#81c2dc" style="--dx:3.13px;--dy:85.32px;animation-delay:-0.23s"/>
+      <circle cx="987.74" cy="330.77" r="2.75" fill="#5cd7e2" style="--dx:-58.45px;--dy:19.22px;animation-delay:-0.55s"/>
+      <circle cx="998.76" cy="339.75" r="2.93" fill="#60d0e7" style="--dx:-22.87px;--dy:86.9px;animation-delay:-0.81s"/>
+      <circle cx="1008.34" cy="348.8" r="3.1" fill="#70c1ec" style="--dx:-183.05px;--dy:-66.13px;animation-delay:-0.08s"/>
+      <circle cx="1016.38" cy="357.7" r="3.25" fill="#7eb3f1" style="--dx:-100.12px;--dy:-109.79px;animation-delay:-0.85s"/>
+      <circle cx="1022.78" cy="366.25" r="3.38" fill="#8aa8f5" style="--dx:-123.81px;--dy:-84.74px;animation-delay:-0.6s"/>
+      <circle cx="1027.47" cy="374.23" r="3.49" fill="#959ef8" style="--dx:-115.54px;--dy:-74.86px;animation-delay:-0.72s"/>
+      <circle cx="1030.45" cy="381.45" r="3.58" fill="#9d96fb" style="--dx:-179.64px;--dy:-77.41px;animation-delay:-0.1s"/>
+      <circle cx="1031.72" cy="387.7" r="3.64" fill="#a490fd" style="--dx:15.72px;--dy:-68.93px;animation-delay:-0.4s"/>
+      <circle cx="1031.33" cy="392.81" r="3.68" fill="#a78cff" style="--dx:-123.36px;--dy:71.19px;animation-delay:-0.87s"/>
+      <circle cx="1029.35" cy="396.62" r="3.7" fill="#a98bff" style="--dx:-147px;--dy:-130.76px;animation-delay:-0.75s"/>
+      <circle cx="1025.89" cy="398.98" r="3.69" fill="#a88cff" style="--dx:-145.54px;--dy:-14.46px;animation-delay:-0.15s"/>
+      <circle cx="1021.1" cy="399.77" r="3.66" fill="#a58ffe" style="--dx:4.74px;--dy:-28.18px;animation-delay:-0.35s"/>
+      <circle cx="1015.11" cy="398.93" r="3.6" fill="#9f94fc" style="--dx:-115.2px;--dy:-86.47px;animation-delay:-0.54s"/>
+      <circle cx="1008.12" cy="396.38" r="3.52" fill="#979cf9" style="--dx:14.75px;--dy:-264.38px;animation-delay:-0.21s"/>
+      <circle cx="1000.3" cy="392.11" r="3.41" fill="#8da5f6" style="--dx:10.65px;--dy:71.89px;animation-delay:-0.79s"/>
+      <circle cx="991.88" cy="386.14" r="3.28" fill="#81b0f2" style="--dx:-14.26px;--dy:-220.89px;animation-delay:-0.66s"/>
+      <circle cx="983.04" cy="378.5" r="3.14" fill="#73bdee" style="--dx:-106.5px;--dy:-197.65px;animation-delay:-0.32s"/>
+      <circle cx="974.01" cy="369.29" r="2.98" fill="#64cce9" style="--dx:-30.97px;--dy:-59.77px;animation-delay:-0.26s"/>
+      <circle cx="965" cy="358.62" r="2.8" fill="#53dce3" style="--dx:-26.68px;--dy:-21.87px;animation-delay:-0.48s"/>
+      <circle cx="956.2" cy="346.63" r="2.61" fill="#77c7dd" style="--dx:45.72px;--dy:30.13px;animation-delay:-0.41s"/>
+      <circle cx="947.79" cy="333.5" r="2.41" fill="#9db2d7" style="--dx:-51.89px;--dy:-151.64px;animation-delay:-0.05s"/>
+      <circle cx="939.96" cy="319.43" r="2.2" fill="#c59bd1" style="--dx:48.54px;--dy:56.49px;animation-delay:-0.42s"/>
+      <circle cx="932.85" cy="304.64" r="1.99" fill="#ed84cb" style="--dx:-48.75px;--dy:-38.95px;animation-delay:-0.02s"/>
+      <circle cx="926.59" cy="289.36" r="2.02" fill="#e887cc" style="--dx:147.52px;--dy:46.05px;animation-delay:-0.86s"/>
+      <circle cx="921.28" cy="273.86" r="2.23" fill="#c09ed2" style="--dx:50.52px;--dy:33.29px;animation-delay:-0.64s"/>
+      <circle cx="917" cy="258.39" r="2.44" fill="#99b4d8" style="--dx:-21.57px;--dy:87.1px;animation-delay:-0.38s"/>
+      <circle cx="913.79" cy="243.22" r="2.63" fill="#73cade" style="--dx:-35.1px;--dy:65.75px;animation-delay:-0.62s"/>
+      <circle cx="911.68" cy="228.6" r="2.82" fill="#55dae4" style="--dx:42.37px;--dy:138.58px;animation-delay:-0.23s"/>
+      <circle cx="910.64" cy="214.79" r="3" fill="#66cae9" style="--dx:15.17px;--dy:78.91px;animation-delay:-0.37s"/>
+      <circle cx="910.64" cy="202.04" r="3.16" fill="#75bcee" style="--dx:18.89px;--dy:261.96px;animation-delay:-0.21s"/>
+      <circle cx="911.6" cy="190.57" r="3.3" fill="#83aff3" style="--dx:-155.69px;--dy:216.63px;animation-delay:-0.73s"/>
+      <circle cx="913.44" cy="180.58" r="3.42" fill="#8fa4f6" style="--dx:22.63px;--dy:37.45px;animation-delay:-0.37s"/>
+      <circle cx="916.03" cy="172.26" r="3.53" fill="#989bfa" style="--dx:65.34px;--dy:211.39px;animation-delay:-0.04s"/>
+      <circle cx="919.25" cy="165.74" r="3.61" fill="#a093fc" style="--dx:-105.34px;--dy:146.97px;animation-delay:-0.48s"/>
+      <circle cx="922.93" cy="161.16" r="3.66" fill="#a58efe" style="--dx:1.76px;--dy:231.47px;animation-delay:-0.53s"/>
+      <circle cx="926.92" cy="158.58" r="3.69" fill="#a88cff" style="--dx:-144.9px;--dy:240.37px;animation-delay:-0.35s"/>
+      <circle cx="931.03" cy="158.06" r="3.7" fill="#a98bff" style="--dx:27.39px;--dy:214.86px;animation-delay:-0.44s"/>
+      <circle cx="935.11" cy="159.61" r="3.68" fill="#a78dfe" style="--dx:-32.67px;--dy:179.68px;animation-delay:-0.34s"/>
+      <circle cx="938.96" cy="163.2" r="3.64" fill="#a391fd" style="--dx:57.15px;--dy:173.82px;animation-delay:-0.05s"/>
+      <circle cx="942.43" cy="168.76" r="3.57" fill="#9d97fb" style="--dx:23.73px;--dy:37.16px;animation-delay:-0.51s"/>
+      <circle cx="945.35" cy="176.2" r="3.48" fill="#949ff8" style="--dx:-139.58px;--dy:163.83px;animation-delay:-0.51s"/>
+      <circle cx="947.58" cy="185.38" r="3.37" fill="#89a9f5" style="--dx:-54.33px;--dy:138.13px;animation-delay:-0.08s"/>
+      <circle cx="949" cy="196.13" r="3.23" fill="#7cb5f0" style="--dx:18.1px;--dy:160.84px;animation-delay:-0.75s"/>
+      <circle cx="949.49" cy="208.27" r="3.08" fill="#6ec3ec" style="--dx:-42.64px;--dy:96.75px;animation-delay:-0.8s"/>
+      <circle cx="948.97" cy="221.58" r="2.91" fill="#5ed2e6" style="--dx:-121.19px;--dy:122.32px;animation-delay:-0.16s"/>
+      <circle cx="947.4" cy="235.82" r="2.73" fill="#60d4e1" style="--dx:-30.79px;--dy:101.01px;animation-delay:-0.11s"/>
+      <circle cx="944.74" cy="250.75" r="2.54" fill="#85bfdb" style="--dx:25.81px;--dy:-1.64px;animation-delay:-0.9s"/>
+      <circle cx="940.99" cy="266.11" r="2.33" fill="#aca9d5" style="--dx:-50.18px;--dy:62.84px;animation-delay:-0.53s"/>
+      <circle cx="936.19" cy="281.62" r="2.13" fill="#d493cf" style="--dx:-47.65px;--dy:158.99px;animation-delay:-0.4s"/>
+      <circle cx="930.39" cy="297.05" r="1.91" fill="#fc7bc8" style="--dx:38.25px;--dy:20.93px;animation-delay:-0.26s"/>
+      <circle cx="923.69" cy="312.11" r="2.1" fill="#d990ce" style="--dx:66.22px;--dy:-60.86px;animation-delay:-0.2s"/>
+      <circle cx="916.2" cy="326.57" r="2.31" fill="#b1a6d4" style="--dx:130.48px;--dy:24.18px;animation-delay:-0.53s"/>
+      <circle cx="908.07" cy="340.2" r="2.51" fill="#8abdda" style="--dx:-71.94px;--dy:21.81px;animation-delay:-0.75s"/>
+      <circle cx="899.44" cy="352.78" r="2.71" fill="#65d2e0" style="--dx:28.37px;--dy:111.22px;animation-delay:-0.28s"/>
+      <circle cx="890.51" cy="364.13" r="2.89" fill="#5cd4e6" style="--dx:-34.89px;--dy:-232.13px;animation-delay:-0.28s"/>
+      <circle cx="881.46" cy="374.09" r="3.06" fill="#6cc5eb" style="--dx:29.61px;--dy:-160.87px;animation-delay:-0.86s"/>
+      <circle cx="872.5" cy="382.52" r="3.21" fill="#7bb7f0" style="--dx:30.61px;--dy:-33.8px;animation-delay:-0.74s"/>
+      <circle cx="863.85" cy="389.33" r="3.35" fill="#88abf4" style="--dx:55.09px;--dy:-253.46px;animation-delay:-0.74s"/>
+      <circle cx="855.7" cy="394.46" r="3.47" fill="#93a0f8" style="--dx:53.63px;--dy:-66.02px;animation-delay:-0.21s"/>
+      <circle cx="848.27" cy="397.87" r="3.56" fill="#9c98fb" style="--dx:136.94px;--dy:-71.83px;animation-delay:-0.81s"/>
+      <circle cx="841.76" cy="399.56" r="3.63" fill="#a291fd" style="--dx:121.25px;--dy:-139.37px;animation-delay:-0.79s"/>
+      <circle cx="836.35" cy="399.58" r="3.68" fill="#a78dfe" style="--dx:39.5px;--dy:-37.69px;animation-delay:-0.51s"/>
+      <circle cx="832.2" cy="397.99" r="3.7" fill="#a98bff" style="--dx:171.48px;--dy:15.56px;animation-delay:-0.43s"/>
+      <circle cx="829.47" cy="394.89" r="3.7" fill="#a98bff" style="--dx:128.63px;--dy:-85.71px;animation-delay:-0.41s"/>
+      <circle cx="828.27" cy="390.41" r="3.67" fill="#a68efe" style="--dx:-96.27px;--dy:-191.84px;animation-delay:-0.82s"/>
+      <circle cx="828.7" cy="384.71" r="3.61" fill="#a193fc" style="--dx:94.78px;--dy:-2.41px;animation-delay:-0.49s"/>
+      <circle cx="830.82" cy="377.95" r="3.54" fill="#9a9afa" style="--dx:-6.77px;--dy:-184.01px;animation-delay:-0.69s"/>
+      <circle cx="834.66" cy="370.32" r="3.44" fill="#90a3f7" style="--dx:117.96px;--dy:-93.34px;animation-delay:-0.2s"/>
+      <circle cx="840.21" cy="362.03" r="3.32" fill="#84adf3" style="--dx:50px;--dy:-130.85px;animation-delay:-0.39s"/>
+      <circle cx="847.44" cy="353.28" r="3.18" fill="#77baef" style="--dx:143.37px;--dy:-78.83px;animation-delay:-0.07s"/>
+      <circle cx="856.26" cy="344.28" r="3.02" fill="#68c8ea" style="--dx:86.92px;--dy:36.26px;animation-delay:-0.05s"/>
+      <circle cx="866.58" cy="335.24" r="2.85" fill="#57d8e4" style="--dx:-9.22px;--dy:-123.29px;animation-delay:-0.11s"/>
+      <circle cx="878.26" cy="326.37" r="2.66" fill="#6ecddf" style="--dx:134.79px;--dy:24.2px;animation-delay:-0.72s"/>
+      <circle cx="891.12" cy="317.85" r="2.46" fill="#94b7d9" style="--dx:83.62px;--dy:-127.2px;animation-delay:-0.6s"/>
+      <circle cx="904.97" cy="309.86" r="2.26" fill="#bba1d3" style="--dx:35.82px;--dy:104.06px;animation-delay:-0.68s"/>
+      <circle cx="919.61" cy="302.55" r="2.05" fill="#e38acc" style="--dx:-103.45px;--dy:161.45px;animation-delay:-0.23s"/>
+      <circle cx="934.79" cy="296.07" r="1.97" fill="#f281ca" style="--dx:137.5px;--dy:49.17px;animation-delay:-0.38s"/>
+      <circle cx="950.26" cy="290.51" r="2.18" fill="#ca98d0" style="--dx:-14.33px;--dy:-123.35px;animation-delay:-0.19s"/>
+      <circle cx="965.76" cy="285.97" r="2.39" fill="#a2afd7" style="--dx:-110.68px;--dy:38.96px;animation-delay:-0.52s"/>
+      <circle cx="981.03" cy="282.49" r="2.59" fill="#7cc5dd" style="--dx:6.84px;--dy:-14.41px;animation-delay:-0.57s"/>
+      <circle cx="995.81" cy="280.1" r="2.78" fill="#57d9e2" style="--dx:-12.71px;--dy:-0.73px;animation-delay:-0.37s"/>
+      <circle cx="1009.85" cy="278.8" r="2.96" fill="#62cee8" style="--dx:-53.2px;--dy:-98.43px;animation-delay:-0.39s"/>
+      <circle cx="1022.88" cy="278.54" r="3.12" fill="#72bfed" style="--dx:-11.23px;--dy:130.54px;animation-delay:-0.72s"/>
+      <circle cx="1034.69" cy="279.27" r="3.27" fill="#80b2f2" style="--dx:-180.7px;--dy:184.73px;animation-delay:-0.35s"/>
+      <circle cx="1045.07" cy="280.9" r="3.4" fill="#8ca6f6" style="--dx:-137.6px;--dy:-53.61px;animation-delay:-0.02s"/>
+      <circle cx="1053.83" cy="283.32" r="3.5" fill="#969df9" style="--dx:-148.95px;--dy:34.15px;animation-delay:-0.54s"/>
+      <circle cx="1060.81" cy="286.39" r="3.59" fill="#9e95fc" style="--dx:-89.14px;--dy:-40.18px;animation-delay:-0.66s"/>
+      <circle cx="1065.88" cy="289.97" r="3.65" fill="#a48ffd" style="--dx:-45.89px;--dy:92.45px;animation-delay:-0.74s"/>
+      <circle cx="1068.97" cy="293.9" r="3.69" fill="#a88cff" style="--dx:-55.61px;--dy:2.24px;animation-delay:-0.85s"/>
+      <circle cx="1092" cy="298" r="1.6" fill="#a98bff" opacity="0.45" style="--dx:-127.82px;--dy:20.24px;animation-delay:-0.75s"/>
+      <circle cx="1090.55" cy="319.59" r="1.6" fill="#a58efe" opacity="0.45" style="--dx:-178.15px;--dy:144.41px;animation-delay:-0.7s"/>
+      <circle cx="1086.24" cy="340.8" r="1.6" fill="#a292fd" opacity="0.45" style="--dx:-282.21px;--dy:-72.97px;animation-delay:-0.17s"/>
+      <circle cx="1079.15" cy="361.24" r="1.6" fill="#9e95fb" opacity="0.45" style="--dx:-104.32px;--dy:33.24px;animation-delay:-0.86s"/>
+      <circle cx="1069.39" cy="380.56" r="1.6" fill="#9a99fa" opacity="0.45" style="--dx:-84.46px;--dy:-31.24px;animation-delay:-0.71s"/>
+      <circle cx="1057.14" cy="398.4" r="1.6" fill="#979cf9" opacity="0.45" style="--dx:-156.85px;--dy:-263.06px;animation-delay:-0.12s"/>
+      <circle cx="1042.62" cy="414.45" r="1.6" fill="#93a0f8" opacity="0.45" style="--dx:-216.89px;--dy:-245.64px;animation-delay:-0.82s"/>
+      <circle cx="1026.1" cy="428.42" r="1.6" fill="#8fa3f7" opacity="0.45" style="--dx:-38.12px;--dy:-56.9px;animation-delay:-0.65s"/>
+      <circle cx="1007.85" cy="440.07" r="1.6" fill="#8ca7f5" opacity="0.45" style="--dx:2.83px;--dy:-308.07px;animation-delay:-0.04s"/>
+      <circle cx="988.22" cy="449.18" r="1.6" fill="#88aaf4" opacity="0.45" style="--dx:-133.4px;--dy:0.74px;animation-delay:-0.52s"/>
+      <circle cx="967.55" cy="455.59" r="1.6" fill="#84adf3" opacity="0.45" style="--dx:-66.79px;--dy:-36.64px;animation-delay:-0.86s"/>
+      <circle cx="946.22" cy="459.19" r="1.6" fill="#81b1f2" opacity="0.45" style="--dx:60.4px;--dy:-261.43px;animation-delay:-0.03s"/>
+      <circle cx="924.59" cy="459.91" r="1.6" fill="#7db4f1" opacity="0.45" style="--dx:122.74px;--dy:-75.45px;animation-delay:-0.84s"/>
+      <circle cx="903.05" cy="457.74" r="1.6" fill="#79b8f0" opacity="0.45" style="--dx:-131.04px;--dy:-159px;animation-delay:-0.33s"/>
+      <circle cx="882" cy="452.73" r="1.6" fill="#76bbee" opacity="0.45" style="--dx:93.03px;--dy:-9.6px;animation-delay:-0.06s"/>
+      <circle cx="861.81" cy="444.95" r="1.6" fill="#72bfed" opacity="0.45" style="--dx:-19.68px;--dy:-112.09px;animation-delay:-0.88s"/>
+      <circle cx="842.83" cy="434.55" r="1.6" fill="#6ec2ec" opacity="0.45" style="--dx:-100.67px;--dy:-183.57px;animation-delay:-0.87s"/>
+      <circle cx="825.41" cy="421.71" r="1.6" fill="#6bc6eb" opacity="0.45" style="--dx:78.67px;--dy:13.89px;animation-delay:-0.12s"/>
+      <circle cx="809.85" cy="406.67" r="1.6" fill="#67c9ea" opacity="0.45" style="--dx:202.38px;--dy:-103.84px;animation-delay:-0.38s"/>
+      <circle cx="796.44" cy="389.68" r="1.6" fill="#63cce8" opacity="0.45" style="--dx:114.64px;--dy:-117.42px;animation-delay:-0.13s"/>
+      <circle cx="785.41" cy="371.06" r="1.6" fill="#60d0e7" opacity="0.45" style="--dx:151.37px;--dy:-45.05px;animation-delay:-0.31s"/>
+      <circle cx="776.96" cy="351.14" r="1.6" fill="#5cd3e6" opacity="0.45" style="--dx:262.94px;--dy:-133.11px;animation-delay:-0.4s"/>
+      <circle cx="771.25" cy="330.27" r="1.6" fill="#58d7e5" opacity="0.45" style="--dx:161.05px;--dy:-198.27px;animation-delay:-0.39s"/>
+      <circle cx="768.36" cy="308.82" r="1.6" fill="#55dae4" opacity="0.45" style="--dx:145.52px;--dy:8.49px;animation-delay:-0.84s"/>
+      <circle cx="768.36" cy="287.18" r="1.6" fill="#57dae2" opacity="0.45" style="--dx:222.85px;--dy:-45.53px;animation-delay:-0.74s"/>
+      <circle cx="771.25" cy="265.73" r="1.6" fill="#5ed6e1" opacity="0.45" style="--dx:109.84px;--dy:112.88px;animation-delay:-0.56s"/>
+      <circle cx="776.96" cy="244.86" r="1.6" fill="#65d2e0" opacity="0.45" style="--dx:104.9px;--dy:-6.39px;animation-delay:-0.12s"/>
+      <circle cx="785.41" cy="224.94" r="1.6" fill="#6dcddf" opacity="0.45" style="--dx:122.92px;--dy:22.25px;animation-delay:-0.89s"/>
+      <circle cx="796.44" cy="206.32" r="1.6" fill="#74c9de" opacity="0.45" style="--dx:127.6px;--dy:149.99px;animation-delay:-0.13s"/>
+      <circle cx="809.85" cy="189.33" r="1.6" fill="#7bc5dd" opacity="0.45" style="--dx:-42.03px;--dy:256.41px;animation-delay:-0.1s"/>
+      <circle cx="825.41" cy="174.29" r="1.6" fill="#83c1dc" opacity="0.45" style="--dx:123.18px;--dy:-35.95px;animation-delay:-0.15s"/>
+      <circle cx="842.83" cy="161.45" r="1.6" fill="#8abdda" opacity="0.45" style="--dx:199.07px;--dy:91.55px;animation-delay:-0.88s"/>
+      <circle cx="861.81" cy="151.05" r="1.6" fill="#91b9d9" opacity="0.45" style="--dx:46.18px;--dy:73.86px;animation-delay:-0.57s"/>
+      <circle cx="882" cy="143.27" r="1.6" fill="#99b4d8" opacity="0.45" style="--dx:14.05px;--dy:140.4px;animation-delay:-0.75s"/>
+      <circle cx="903.05" cy="138.26" r="1.6" fill="#a0b0d7" opacity="0.45" style="--dx:122.76px;--dy:152.67px;animation-delay:-0.26s"/>
+      <circle cx="924.59" cy="136.09" r="1.6" fill="#a7acd6" opacity="0.45" style="--dx:-11.3px;--dy:67.76px;animation-delay:-0.08s"/>
+      <circle cx="946.22" cy="136.81" r="1.6" fill="#aea8d5" opacity="0.45" style="--dx:59.51px;--dy:142.4px;animation-delay:-0.7s"/>
+      <circle cx="967.55" cy="140.41" r="1.6" fill="#b6a4d3" opacity="0.45" style="--dx:70.75px;--dy:270.03px;animation-delay:-0.12s"/>
+      <circle cx="988.22" cy="146.82" r="1.6" fill="#bda0d2" opacity="0.45" style="--dx:-23.84px;--dy:286px;animation-delay:-0.44s"/>
+      <circle cx="1007.85" cy="155.93" r="1.6" fill="#c49bd1" opacity="0.45" style="--dx:-26.78px;--dy:84.62px;animation-delay:-0.73s"/>
+      <circle cx="1026.1" cy="167.58" r="1.6" fill="#cc97d0" opacity="0.45" style="--dx:-67.76px;--dy:156.86px;animation-delay:-0.12s"/>
+      <circle cx="1042.62" cy="181.55" r="1.6" fill="#d393cf" opacity="0.45" style="--dx:-207.7px;--dy:127.79px;animation-delay:-0.68s"/>
+      <circle cx="1057.14" cy="197.6" r="1.6" fill="#da8fce" opacity="0.45" style="--dx:-58.14px;--dy:126.07px;animation-delay:-0.27s"/>
+      <circle cx="1069.39" cy="215.44" r="1.6" fill="#e28bcd" opacity="0.45" style="--dx:-35.83px;--dy:-83.44px;animation-delay:-0.04s"/>
+      <circle cx="1079.15" cy="234.76" r="1.6" fill="#e987cb" opacity="0.45" style="--dx:-81.43px;--dy:57.37px;animation-delay:-0.04s"/>
+      <circle cx="1086.24" cy="255.2" r="1.6" fill="#f082ca" opacity="0.45" style="--dx:-81.87px;--dy:20.83px;animation-delay:-0.64s"/>
+      <circle cx="1090.55" cy="276.41" r="1.6" fill="#f87ec9" opacity="0.45" style="--dx:-253.17px;--dy:122.32px;animation-delay:-0.29s"/>
+  </g></g></g>
+  <text x="724" y="502" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Charter, Georgia, 'Times New Roman', serif" font-size="16" fill="#9A93B5"><tspan font-weight="700" fill="#ECE8FA">Figure 0.</tspan> <tspan font-style="italic">Reverse diffusion, noise → structure.</tspan></text>
+  <text x="1091.4" y="502" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">t =</text>
+  <text x="1099.4" y="502" class="s0" opacity="0" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">1000</text>
+  <text x="1099.4" y="502" class="s1" opacity="0" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">750</text>
+  <text x="1099.4" y="502" class="s2" opacity="0" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">500</text>
+  <text x="1099.4" y="502" class="s3" opacity="0" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">250</text>
+  <text x="1099.4" y="502" class="s4" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">0</text>
+  <text x="1099.4" y="502" class="s5" opacity="0" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#BBA6FF">1000</text>
+  <text x="1136" y="526" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#9A93B5" opacity="0.8">260 samples · seed 1544</text>
+  <rect x="0.75" y="0.75" width="1198.5" height="558.5" fill="none" stroke="#3A3460" stroke-width="1.5"/>
+  <g opacity="0.7"><path d="M12 28 L12 12 L28 12" fill="none" stroke="#BBA6FF" stroke-width="1.5"/><path d="M1188 28 L1188 12 L1172 12" fill="none" stroke="#BBA6FF" stroke-width="1.5"/><path d="M12 532 L12 548 L28 548" fill="none" stroke="#BBA6FF" stroke-width="1.5"/><path d="M1188 532 L1188 548 L1172 548" fill="none" stroke="#BBA6FF" stroke-width="1.5"/></g>
+</svg>
